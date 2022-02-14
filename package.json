@@ -1,0 +1,22 @@
+{
+  "name": "movielist-oefening",
+  "version": "1.0.0",
+  "description": "Een feature maken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K3A101/Movielist-oefening.git"
+  },
+  "author": "Keisha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K3A101/Movielist-oefening/issues"
+  },
+  "homepage": "https://github.com/K3A101/Movielist-oefening#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
