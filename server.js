@@ -8,22 +8,42 @@ const app = express();
 const port = 3000;
 
 /**********/
-/* Route  */
+/* Routes */
 /**********/
+
 app.get('/', (req, res) => {
+    // een respons functie
+    res.send('Hello World!')
+});
+
+
+
+
+/*app.get('/', (req, res) => {
     // een respons functie
     res.send('Hello World!')
 })
 //site root
 
 
-// app.get('/', (req, res) => {
-//     res.send('Hello World!')
-// })
-
-app.get('/about', (req, res) => {
-    res.send('Dit page is about me')
+app.get('/niels', (req, res) => {
+    res.send('Hello Niels!')
 })
+
+app.get('/michiel', (req, res) => {
+    res.send('Hello Michiel')
+})
+
+app.get('/name/:name', (req, res) => {
+    res.send(`Hello ${req.params.name}`)
+})*/
+
+/******************/
+/* Error handling */
+/******************/
+app.use((req, res) => {
+    res.status(404).send('Error 404: File not found')
+});
 
 
 
