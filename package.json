@@ -2,7 +2,7 @@
   "name": "movielist-oefening",
   "version": "1.0.0",
   "description": "Een feature maken",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
